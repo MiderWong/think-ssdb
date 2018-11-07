@@ -11,12 +11,16 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "phpfastcache/phpssdb": "^1.0"
+        "phpfastcache/phpssdb": "^1.0",
+        "topthink/framework": "~v5.0.0"
     },
     "autoload": {
         "psr-4": {
             "think\\cache\\driver\\": "./src"
-        }
+        },
+        "files": [
+            "src/common.php"
+        ]
     }
 
 }
