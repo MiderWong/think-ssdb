@@ -1,4 +1,4 @@
 <?php
 \think\Console::addDefaultCommands([
-    "think\\cache\\command\\ClearCache",
+    "think\\cache\\driver\\command\\ClearCache",
 ]);
