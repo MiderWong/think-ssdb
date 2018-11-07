@@ -1,0 +1,22 @@
+{
+    "name": "jiemo/think-ssdb",
+    "description": "SSDB cache driver for ThinkPHP5",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cong Peijun",
+            "email": "me@congpeijun.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpfastcache/phpssdb": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\cache\\driver\\": "./src"
+        }
+    }
+
+}
