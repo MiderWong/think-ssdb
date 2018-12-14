@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "require": {
         "phpfastcache/phpssdb": "^1.0",
-        "topthink/framework": "~v5.0.0"
+        "topthink/framework": "^v5.0|^v5.1"
     },
     "autoload": {
         "psr-4": {
